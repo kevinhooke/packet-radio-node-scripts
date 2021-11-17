@@ -40,8 +40,16 @@ Prompts for name of city then runs ansiweather for today's forecast
 Prompts for name of city then runs ansiweather for 5 day forecast
 
 ## rss-arrl-example.sh
-Calls an AWS Lambda to retrieve and parse RSS news feed from arrl.org. Outputs titles from the RSS
-XML response
+Calls an AWS Lambda via API Gateway to retrieve and parse RSS news feed from arrl.org. Outputs titles from the RSS XML response. If you deploy your own copy and want to reuse this script, replace the AWS Gateway endpoint id placeholder in the script to point to the id of your deployed endpoint. 
+
+RSS Parser source: https://github.com/kevinhooke/rss-parser
+AWS Lambda source: https://github.com/kevinhooke/rss-parser-lambda
+
+## rss-amateurradionewsline-example.sh
+Same as above, but parses and displays titles from RSS feed from Amateur Radio Newsline
+
+## rss-southgate-arc-example.sh
+Same as above, for Southgate ARC news.
 
 
 
