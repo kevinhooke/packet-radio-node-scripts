@@ -8,7 +8,10 @@ This was inspired by others who have set up text based adventure games like Zork
 over packet. I was interested to use the same approach and add other apps, including building some
 custom apps to integrate with other sources of info, like RSS news feeds.
 
-## What is ax25 / node / Packet Radio?
+I have a demo video of these scripts being accessed over Packet Radio here:
+https://www.youtube.com/watch?v=EERktEisDKY
+
+## What is Amateur Radio ax25 / node / Packet Radio?
 See https://en.wikipedia.org/wiki/AX.25
 and https://en.wikipedia.org/wiki/Packet_radio
 
