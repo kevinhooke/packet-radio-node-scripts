@@ -13,4 +13,12 @@ for line in $lines;
     echo "[$lineNum] $line"
     ((lineNum=lineNum+1))
   done
-echo "To display article content, enter R and article number when prompted"
+
+articleNum=''
+while [[ $articleNum != "q" ]]; do
+  echo "";
+  echo "To display article content, enter article number or 'q' to quit:"
+  read articleNum
+  # | jq '.headlines[]'
+  curl -s -X GET https://[your-api-gw-id-here].execute-api.us-west-1.amazonaws.com/dev/parse/$artic$
+done
